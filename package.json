@@ -1,0 +1,18 @@
+{
+  "name": "mt-web.dev",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "postbuild": "next-on-netlify",
+    "cleanup": "rm -rf out_functions out_publish .next"
+  },
+  "dependencies": {
+    "next": "9.4.4",
+    "next-on-netlify": "^2.3.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  }
+}
