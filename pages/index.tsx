@@ -1,12 +1,18 @@
 import Head from 'next/head'
+import { Demo } from '../src/components/demo'
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>mt-web.dev</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <hr />
+
+      <Demo></Demo>
+      <hr />
 
       <main>
         <h1 className="title">
